@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites>
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <!-- Dialer, Messages, [All Apps], Opera Browser, Camera -->
+    <favorite
+        packageName="com.katsuna.calls"
+        className="com.katsuna.calls.ui.activities.MainActivity"
+        container="-101"
+        screen="0"
+        x="0"
+        y="0" />
+
+    <favorite
+        packageName="com.katsuna.messages"
+        className="com.katsuna.messages.ui.activities.MainActivity"
+        container="-101"
+        screen="1"
+        x="1"
+        y="0" />
+
+    <!-- All Apps -->
+
+    <favorite
+        packageName="com.opera.browser"
+        className="com.opera.Opera"
+        container="-101"
+        screen="3"
+        x="3"
+        y="0" />
+
+    <favorite
+        packageName="com.android.camera2"
+        className="com.android.camera.CameraActivity"
+        container="-101"
+        screen="4"
+        x="4"
+        y="0" />
+
+    <!-- Bottom row -->
+    <favorite
+        packageName="com.android.vending"
+        className="com.android.vending.AssetBrowserActivity"
+        screen="0"
+        x="4"
+        y="-1" />
+
+</favorites>
